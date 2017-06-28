@@ -1,0 +1,159 @@
+body{
+    font-family: "Helvetica", "Arial", sans-serif;
+     line-height: 1.6;
+     background-color: gray;
+  }
+
+body > div{
+  background-color: white;
+  border: 2px solid #ffd24a;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+
+header{
+  background-color: #ff8523;
+  color: white;
+  height: 20%;
+}
+
+
+a{
+  color: #1fabe5;
+}
+
+nav a{
+  color: white;
+  text-transform: capitalize;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+}
+
+h2, h3 {
+  color:#1fabe5
+}
+
+ul {
+  font-weight: bold;
+}
+
+.main_navigation{
+  padding-bottom: 20px;
+}
+
+tbody td{
+  border: 1px solid #1fabe5;
+  padding: 14px;
+}
+
+thead td{
+  border: 1px solid #046c97;
+  padding: 14px;
+}
+
+
+thead{
+  background-color: #1fabe5;
+  color: white;
+}
+
+
+
+
+table{
+  border-collapse: collapse;
+  height: 25%;
+  width: 96%;
+  padding: 0;
+  margin: 2%;
+}
+
+table img{
+  height: 25%;
+}
+
+
+
+tbody{
+  margin: 0;
+}
+
+form{
+  height: 30%;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px;
+  font-size: 12px;
+  font-weight:600;
+}
+
+form div{
+  background: #eee;
+  padding-bottom: 15px;
+}
+
+section{
+  border-top: 3px solid #eee;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name{
+  background-color: #ff8523;
+  width: 90%;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+}
+
+.name label{
+  padding-left: 10px;
+
+}
+.name input{
+  height: 24px;
+  width: 30%;
+}
+
+.city_container{
+  padding-bottom: 15px;
+}
+
+
+
+
+#bio{
+  padding-top: 5px;
+  border: 1px solid #1fabe5;
+}
+
+#submit_button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1fabe5;
+  border: transparent;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-stretch: condensed;
+}
+
+/*colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97*/
